@@ -46,12 +46,12 @@ public class toString {
         System.out.println(obj);
 
         //by default toString is called 
-        System.out.println(obj.toString());
         
         Laptop obj1 = new Laptop();
-        obj1.name = "Mac";
-        obj1.year = 2025;
-
+        obj1.name = "Mi";
+        obj1.year = 2022;
+        
+        System.out.println(obj1.toString());
         boolean ifEquals = obj.equals(obj1);
         System.out.println(ifEquals);
     }
