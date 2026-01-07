@@ -38,6 +38,7 @@ public class intrf1 {
 
         Dev dv1 = new Dev();
         dv1.code(d1);
+        dv1.code(l1);
     }
 
 }
