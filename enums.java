@@ -28,7 +28,32 @@ public class enums {
 
 
 
+        //now how to use enums with if-else 
+        //we have status s = Status.Success already up there
 
+        s = Status.Failed;
+
+        switch(s) 
+        {
+            case Success:
+                System.out.println("Success");
+                break;
+            
+            case Failed:
+                System.out.println("Failed");
+                break;
+                
+            case Running:
+                System.out.println("Running");
+                break;
+            
+            case Pending:
+                System.out.println("Pending");
+                break;
+            
+            default:
+                System.out.println("Not Found! Please contact administrator!!");
+        }
 
     }
 
