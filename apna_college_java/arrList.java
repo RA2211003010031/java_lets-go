@@ -44,7 +44,7 @@ public class arrList {
 
 
         //sorting
-        list.add(2, 0);
+        list.add(2, 0); 
         Collections.sort(list);
         System.out.println(list);
 
